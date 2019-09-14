@@ -103,6 +103,9 @@ public class Assessment {
 				}
 				break;
 			default: //ignore if any other character
+				bTest = false; //reset to prevent spread out berts
+				eTest = false; //reset to prevent spread out berts
+				rTest = false; //reset to prevent spread out berts
 				break;
 			}
 			count++;
